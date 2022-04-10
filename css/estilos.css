@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.bloque {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-image: linear-gradient(180deg, #a6ffff 0, #a2edff 25%, #9dd5f2 50%, #96bed5 75%, #8ea8b9 100%);
+    background-size: 100%;
+    
+}.centrar {
+    width: 80%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0px;
+}
+.logo {
+    /*color: #c1c1c1;*/
+    margin-top: 10px;
+    width: 30%;
+    float: left;
+    text-align: left;
+}
+.izquierda, .derecha {
+    width: 48%;
+    height: auto;
+    overflow: hidden;
+    display: inline-block;
+
+}
+.izquierda {
+    float: left;
+    text-align: left;
+}
+/*.subtitulo {
+    color: #c1c1c1;
+}*/
+.titulo-principal {
+    font-size: 60px;
+}
+.descripcion {
+    
+    font-weight: 400;
+}
+.derecha {
+    float: right;
+}
+.img-pres {
+    width: 90%;
+}
+.descripcion {
+    font-weight: 400;
+}
+.bloque elegir {
+    padding: 50px 0px;
+}
+.elegir .derecha {
+    text-align: left;
+}
+.img1 {
+    width: 95%;
+    
+}
+.elegir .derecha h1 {
+    font-size: 35px;
+
+}
+.elegir .derecha p {
+    font-weight: 400;
+
+}
+.opciones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.opcion {
+    width: 47%;
+    /*border: solid 1px #ccc;*/
+    margin-bottom: 30px;
+    padding: 7px;
+}
+.opcion .img-opciones {
+    width: 50%;
+    float: left;
+}
+.mapa {
+    max-width: 100%;
+    background-image: radial-gradient(circle at 50% -20.71%, #feffff 0, #efffff 12.5%, #ddfffd 25%, #cafbf7 37.5%, #b5f2f2 50%, #9fe9ee 62.5%, #8ae1ec 75%, #76d9eb 87.5%, #62d1eb 100%);
+}
+footer {
+    text-align: center;
+    
+}
